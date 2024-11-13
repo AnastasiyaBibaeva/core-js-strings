@@ -223,11 +223,7 @@ function removeLastOccurrences(str, value) {
  *   sumOfCodes() => 0
  */
 function sumOfCodes(str) {
-  let sum;
-  for (let i = 0; i <= str.length; i + 1) {
-    sum += str.codePointAt(i);
-  }
-  return sum;
+
 }
 
 /**
